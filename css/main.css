@@ -7,7 +7,7 @@ body {
 
 h1 {
     font-family: 'Karla', sans-serif;
-    text-shadow: 5px 4px 7px red;
+    font-weight: 700;
 
 }
 
@@ -23,7 +23,6 @@ h4,
 h5,
 h6 { 
     font-family: 'Karla', sans-serif;
-    font-style: italic; 
     font-weight: 700; 
     text-transform: uppercase; 
 
@@ -52,18 +51,22 @@ img {
 }
 
 .val-header nav {
+    justify-content: center;
     display: flex;
     gap: 80px;
-    justify-content: center;
     padding: 30px;
     
     }
 
 .val-header nav a {
-    color: blueviolet;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-style: bold;
+    font-weight: 700;
 }
 
 .val-header nav img {
+    justify-content: center;
     width: 40px;
 }
 
@@ -75,19 +78,19 @@ img {
     }
 
 .val-smaller-image {
-width: 20%
+width: 70%
 }
 
 .val-row-3-tiles {
 display: flex;
 justify-content: center;
-gap: 30px;
-background-color: bisque;
+gap: 100px;
+background-color: whitesmoke;
 }
 
 .val-row-3 {
-    background-color: aquamarine;
-    padding: 30px;
+    background-color: black;
+    padding: 10px;
 
 }
 
@@ -103,7 +106,7 @@ footer img {
 .val-featured-image {
 min-height: 300px;
 height: 600px;
-background: url(../img/spongebob.jpeg);
+background: url(../img/Pookie\ Cat\ Cafe\ Main\ Image.jpeg);
 background-repeat: no-repeat; 
 background-size: cover;
 background-position: center center; 
