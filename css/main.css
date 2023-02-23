@@ -8,18 +8,20 @@ body {
 h1 {
     font-family: 'Karla', sans-serif;
     font-weight: 700;
+    text-align: center;
 
 }
 
 h2 {
     font-family: 'Karla', sans-serif;
     font-weight: 700;
-    color: white;
+    color: black;
+    text-align: center;
 }
 
 h3 {
     font-family: 'Karla', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     color: white;
 }
 
@@ -75,6 +77,7 @@ img {
     font-family: 'Karla', sans-serif;
     font-style: bold;
     font-weight: 700;
+    background-color: black;
 }
 
 .val-header nav img {
@@ -97,12 +100,13 @@ width: 70%
 display: flex;
 justify-content: center;
 gap: 100px;
-background-color: black;
+background-color: blue;
+
 }
 
 .val-row-3 {
     background-color: black;
-    padding: 10px;
+    padding: 30px;
 
 }
 
@@ -131,3 +135,17 @@ background-position: center center;
  background-color: black;   
  padding: 10 px 
 }
+
+
+.Menu-Tiles {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: white;
+ }
+
+.Menu-Main {
+    background-color: white;
+    padding: 30 px;
+ }
+ 
