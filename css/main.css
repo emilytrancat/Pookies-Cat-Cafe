@@ -25,6 +25,15 @@ h3 {
     color: white;
 }
 
+span a {
+    color: gray;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
 p {
     font-family: 'Karla', sans-serif;
     font-weight: 500;
@@ -69,6 +78,7 @@ img {
 
 .val-header nav {
     justify-content: center;
+    align-items: center;
     display: flex;
     gap: 80px;
     padding: 30px;
@@ -77,6 +87,7 @@ img {
 
 .val-header nav a {
     color: white;
+    align-items: center;
     font-family: 'Karla', sans-serif;
     font-style: bold;
     font-weight: 700;
@@ -108,7 +119,7 @@ color: white;
 display: flex;
 justify-content: center;
 gap: 100px;
-background-color: blue;
+background-color: black;
 
 }
 
@@ -141,26 +152,18 @@ background-position: center center;
 
 
 .Menu-Tiles {
+    color: black;
     display: flex;
     justify-content: center;
     gap: 100px;
     background-color: white;
+ }
+
+ .Menu-Tiles img {
+    justify-content: left;
  }
 
 .Menu-Main {
-    background-color: white;
-    padding: 30 px;
- }
-
-
-.AboutO-Tiles {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    background-color: white 
- }
-
-.AboutO-Main {
     background-color: white;
     padding: 30 px;
  }
