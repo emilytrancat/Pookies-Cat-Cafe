@@ -26,7 +26,10 @@ h3 {
 }
 
 p {
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
     font-size: 20px;
+    text-align: center;
 
 }
 
@@ -80,6 +83,10 @@ img {
     background-color: black;
 }
 
+.val-header nav a img {
+   justify-content: top;
+}
+
 .val-header nav img {
     justify-content: center;
     width: 40px;
@@ -88,7 +95,7 @@ img {
 
 .val-intro {
     background-color: pink;
-     display: flex;
+    display: flex;
     justify-content: center; 
     }
 
@@ -97,6 +104,7 @@ width: 70%
 }
 
 .val-row-3-tiles {
+color: white;
 display: flex;
 justify-content: center;
 gap: 100px;
@@ -110,12 +118,6 @@ background-color: blue;
 
 }
 
-footer {
-display: flex;
-justify-content: flex-end;
-}
-
-
 
 .val-featured-image {
 min-height: 300px;
@@ -125,6 +127,7 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center center; 
 }
+
 
 .FAQ-Main {
    background-color: black;
@@ -148,4 +151,27 @@ background-position: center center;
     background-color: white;
     padding: 30 px;
  }
+
+
+.AboutO-Tiles {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: white 
+ }
+
+.AboutO-Main {
+    background-color: white;
+    padding: 30 px;
+ }
+
+
+ .Footer-Poo-Main {
+    color: gray;
+    font-family: 'Karla', sans-serif;
+    font-style: bold;
+    display: flex;
+    justify-content: flex-end
+ }
+
  
